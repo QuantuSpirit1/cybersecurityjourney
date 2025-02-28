@@ -1,0 +1,24 @@
+title: My Cybersecurity Blog
+baseurl: ""
+url: "https://your-username.github.io"
+
+# Theme settings
+theme: minima
+
+author:
+  name: "Your Name"
+  email: "your.email@example.com"
+
+description: "Sharing my journey in Cloud & Cybersecurity."
+
+# Social links
+social_links:
+  github: your-username
+  linkedin: your-linkedin-url
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
